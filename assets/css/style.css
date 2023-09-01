@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.img {
+  width: 100%;
+}
+
+.container {
+  width: 35%;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.headind-secundary {
+  font-size: 3rem;
+}
+
+.headind-terciary {
+  font-size: 1.8rem;
+}
+
+.center {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+/*******************
+     NAVIGATION SECTION
+*********************/
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3.6rem;
+  background-color: rgb(243, 233, 145);
+}
+
+.logo {
+  font-size: 2.4rem;
+  border-radius: 100px;
+  background-color: rgb(241, 186, 177);
+  padding: 1.2rem 2.4rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 2.4rem;
+}
+
+.nav-item {
+  font-size: 1.6rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  text-decoration: underline;
+}
+
+/*******************
+    HERO SECTION
+*********************/
+
+.navigation {
+  height: 10vh;
+}
+
+.hero-section {
+  /* padding-top: 9.6rem; */
+  /* height: 90vh; */
+  /* background-image: url(../imgs/recifeAntigoBack.jpg); */
+  /* background-repeat: ; */
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-container {
+  width: 50%;
+}
+
+.hero-p,
+.btn {
+  margin-top: 1.8rem;
+}
+
+.hero-p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+
+.btn {
+  border: none;
+  padding: 1.6rem 3.2rem;
+  background-color: rgb(241, 186, 177);
+}
+
+.btn:hover {
+  background-color: rgb(189, 145, 138);
+}
+
+/*******************
+     CONTENT SECTION
+*********************/
+
+.content {
+  border-top: 1px solid #e7d7d7;
+  margin: 1rem 0;
+  padding: 8.6rem 0;
+}
+
+.text-p {
+  margin-top: 1.6rem;
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+
+/*************************
+     TESTIMONIALS SECTION
+**************************/
+
+.testimonials-section {
+  background-color: rgb(241, 235, 178);
+}
+
+.tesimonials-container {
+  padding: 6.4rem;
+  row-gap: 3.2rem;
+  column-gap: 3.2rem;
+  align-items: center;
+}
+
+.turist-img {
+  width: 6.4rem;
+  border-radius: 100px;
+  margin-bottom: 1.4rem;
+}
+
+.turist-name {
+  font-size: 1.4rem;
+  color: #9c9c9c;
+  margin-top: 1.2rem;
+}
+
+.imgs-container figure {
+  overflow: hidden;
+}
+
+.img-hover {
+  transition: all 0.3s;
+}
+
+.img-hover:hover {
+  transform: scale(1.1);
+}
+
+/*************************
+     FOOTER SECTION
+**************************/
+
+.footer {
+  background-color: rgb(194, 191, 165);
+}
+
+.copy {
+  margin-top: 9.6rem;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 2rem 0;
+}
+
+.center {
+  justify-content: space-around;
+}
