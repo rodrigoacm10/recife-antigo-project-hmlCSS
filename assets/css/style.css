@@ -25,6 +25,10 @@ body {
   width: 100%;
 }
 
+.img-half {
+  width: 100%;
+}
+
 .container {
   width: 35%;
   margin: 0 auto;
@@ -45,6 +49,14 @@ body {
 .center {
   max-width: 50rem;
   margin: 0 auto;
+}
+
+.pad-top {
+  padding-top: 9.6rem;
+}
+
+.pad-top-2 {
+  padding-top: 4.8rem;
 }
 
 /*******************
@@ -210,4 +222,11 @@ body {
 
 .center {
   justify-content: space-around;
+}
+
+.img-text-section {
+  /* height: 90vh; */
+  padding: 9.6rem 4.8rem;
+  column-gap: 9.6rem;
+  row-gap: 18.2rem;
 }
